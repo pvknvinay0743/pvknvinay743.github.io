@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border: 1px solid #ddd;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 18px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        .entry {
+            margin-bottom: 15px;
+        }
+
+        .entry-title {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .entry-subtitle {
+            font-style: italic;
+            color: #555;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Back Button */
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+
+        <header>
+            <h1>Your Name</h1>
+            <div class="contact-info">
+                Ongole,AP | 8341601188 | pvknvinay0743@email.com
+                <br>
+                <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+            </div>
+        </header>
+
+        <!-- Education is a 2nd year student's #1 asset -->
+        <section>
+            <h2>Education</h2>
+            <div class="entry">
+                <div class="entry-title">
+                    <span>Computer Science</span>
+                    <span>Expected May 2028</span>
+                </div>
+                <div class="entry-subtitle">Vellore Institute of Technology</div>
+                <ul>
+                    <li>Current CGPA: 8.5/10</li>
+                    <li>Relevant Coursework: Data Structures, Web Development.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> C++, Python, HTML/CSS, Basic JavaScript</li>
+                <li><strong>Tools:</strong> VS Code</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="entry">
+                <div class="entry-title">Personal Portfolio Website</div>
+                <ul>
+                    <li>Built a responsive website using HTML and CSS to showcase my skills.</li>
+                    <li>Hosted the project on GitHub Pages for public access.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Basic Management System (C++)</div>
+                <ul>
+                    <li>Developed a console-based application to manage student records.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Extracurriculars</h2>
+            <div class="entry">
+                <div class="entry-title">Member, Coding Club</div>
+                <ul>
+                    <li>Participated in monthly coding competitions and workshops.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
