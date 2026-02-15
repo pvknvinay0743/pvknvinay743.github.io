@@ -1,75 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Vinny's Simple Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
-    
-    <style>
-       
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Standard Font -->
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="resume.html">
+   <style>
+    body { 
+        font-family: Arial, sans-serif; 
+        text-align: center; 
+        background-color: #f4f4f4; 
+        margin: 0; 
+    }
 
-        .container {
-            padding: 50px;
-            background: white;
-            width: 80%;
-            margin: 50px auto;
-            border: 1px solid #ddd;
-        }
+    .hero { padding: 50px 20px; }
 
-        
-        .footer {
-            background-color: #282a35; 
-            color: white;
-            padding: 40px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+    .profile-img { 
+        width: 180px; 
+        height: 180px; 
+        border-radius: 50%; 
+        border: 3px solid black; 
+    }
 
-     
-        .icon-row a {
-            color: white;
-            font-size: 40px;    
-            margin: 0 15px; 
-            text-decoration: none; 
-        }
+    .btn { 
+        display: inline-block; 
+        padding: 10px 20px; 
+        margin: 10px; 
+        color: white; 
+        text-decoration: none; 
+        border-radius: 5px; 
+    }
 
-        
-        .icon-row a:hover {
-            color: #3b82f6;
-        }
-    </style>
+    /* Simple Colors */
+    .bg-blue { background-color: blue; }
+    .bg-green { background-color: green; }
+    .bg-black { background-color: black; }
+
+    footer { 
+        margin-top: 50px; 
+        padding: 20px; 
+        background-color: white; 
+        border-top: 1px solid gray; 
+    }
+</style>
+
 </head>
 <body>
 
-    <div class="container">
-        <h1>Hi, I'm Vinny</h1>
-        <p>I am learning HTML and CSS.</p>
-        <p>And I am Enjoying it</p>
-        <p>Contact me: <strong>8341601188</strong></p>
-    </div>
+    <div class="hero">
+        
+        <h1>Hi, I'm PINNIKA VENKATA KRISHNA NAGA VINAY</h1>
+    
+        
+        <p class="bio-text">
+            Welcome to my portfolio! I'm a student who loves learning about web development and new technologies. 
+            When I'm not coding, I enjoy gaming and working on small DIY projects. Check out my links below!
+        </p>
 
-    <div class="footer">
-        <p>CONNECT WITH ME</p>
-        <div class="icon-row"></div>
-            
-            <!-- LinkedIn Icon -->
-            <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
-            
-            
-            <!-- Facebook Icon -->
-            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-            
-            
-            <!-- Email Icon (Direct Email) -->
-            <a href="mailto:pvknvinay0743@gmail.com"><i class="fas fa-envelope"></i></a>
+        <div class="nav-links">
+            <a href="#" class="btn bg-blue">My Projects</a>
+            <a href="#" class="btn bg-green">My Resume</a>
+            <a href="mailto:someone@example.com" class="btn bg-dark">Email Me</a>
         </div>
     </div>
+
+    <footer>
+        <div class="footer-info">
+            <strong>Contact:</strong> 8341601188 | <strong>Email:</strong> pvknvinay0743@email.com
+        </div>
+        <div>
+            <p>© 2024 Created by Vinay</p>
+        </div>
+    </footer>
 
 </body>
 </html>
